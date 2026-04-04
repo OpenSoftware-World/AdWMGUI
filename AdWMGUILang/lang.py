@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-""" Copyright© 2023-2025 LinuxUsersLinuxMint
+""" Copyright© 2023-2025 OpenSoftware-World
 AdWMGUI Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
 AdWMGUI All Rights Reserved under the GPL(General Public License).
-Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/AdWMGUI
-A Copy of This Software is published on GitHub To view: https://github.com/LinuxUsersLinuxMint/AdWMGUI """
+Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/OpenSoftware-World/AdWMGUI
+A Copy of This Software is published on GitHub To view: https://github.com/OpenSoftware-World/AdWMGUI """
 
 from tkinter import *
 from tkinter import font
@@ -31,10 +31,10 @@ if userLang == "en":
     licence_version_txt = "Licence version: 2"
     full_licence_name_txt = "Full licence name: GPL2 (General Public License)"
     manufacturer_information_title = "Manufacturer information:\n"
-    manufacturer_name_txt = "Manufacturer name: LinuxUsersLinuxMint"
-    organization_txt = "Organization: LinuxUsersLinuxMint"
+    manufacturer_name_txt = "Manufacturer name: OpenSoftware-World"
+    organization_txt = "Organization: OpenSoftware-World"
     website_information_title = "Website information:\n"
-    organization_website_txt = "Organization website: https://linuxuserslinuxmint.github.io/"
+    organization_website_txt = "Organization website: https://opensoftware-world.github.io/"
     adwmgui_txt_title = "AdWMGUI"
     shutdownpc_askyesno_txt_title = "Are you sure you want to shutdown your computer?"
     shutdownpc_askyesno_cancel_txt_title = "Shutdown cancelled."
@@ -125,10 +125,10 @@ if userLang == "tr":
     licence_version_txt = "Lisans sürümü: 2"
     full_licence_name_txt = "Tam lisans ismi: GPL2 (General Public License)"
     manufacturer_information_title = "Üretici bilgisi:\n"
-    manufacturer_name_txt = "Program üreticisi: LinuxUsersLinuxMint"
-    organization_txt = "Organizasyon: LinuxUsersLinuxMint"
+    manufacturer_name_txt = "Program üreticisi: OpenSoftware-World"
+    organization_txt = "Organizasyon: OpenSoftware-World"
     website_information_title = "Web site bilgisi:\n"
-    organization_website_txt = "Organizasyon web sitesi: https://linuxuserslinuxmint.github.io/"
+    organization_website_txt = "Organizasyon web sitesi: https://opensoftware-world.github.io/"
     adwmgui_txt_title = "AdWMGUI"
     shutdownpc_askyesno_txt_title = "Bilgisayarı kapatmak istediğinizden emin misiniz?"
     shutdownpc_askyesno_cancel_txt_title = "Kapatma iptal edildi."

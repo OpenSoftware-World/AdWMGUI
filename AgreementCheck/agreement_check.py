@@ -1,15 +1,15 @@
 #!/usr/bin/python3
-""" Copyright© 2023-2025 LinuxUsersLinuxMint
+""" Copyright© 2023-2025 OpenSoftware-World
 AdWMGUI Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
 AdWMGUI All Rights Reserved under the GPL(General Public License).
-Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/AdWMGUI
-A Copy of This Software is published on GitHub To view: https://github.com/LinuxUsersLinuxMint/AdWMGUI """
+Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/OpenSoftware-World/AdWMGUI
+A Copy of This Software is published on GitHub To view: https://github.com/OpenSoftware-World/AdWMGUI """
 
 adwmgui_agreement = """TR:
 
 AdWMGUI kullanım sözleşmesi:
 
-Yazar: LinuxUsersLinuxMint
+Yazar: OpenSoftware-World
 Sözleşme içeriği: AdWMGUI yazılımının kullanımı içindir.
 Oluşturulma tarihi: 6/11/2025 - 22:37
 Son düzenlenme tarihi: --/--/---- - --:--
@@ -21,7 +21,7 @@ Son düzenlenme tarihi: --/--/---- - --:--
 - AdWMGUI nereden indirilmeli? -
 
 * AdWMGUI yazılımı açık kaynaklıdır bu sayede AdWMGUI kaynak koduna erişim sağlayabilir ve kaynak kodu düzenleyebilir güvenilmez düzenlemelerden veya zararlı yazılımlardan korunmak için AdWMGUI yazılımını belirtilen kaynaklardan edinmenizi öneririz:
- * Github: https://github.com/LinuxUsersLinuxMint/AdWMGUI
+ * Github: https://github.com/OpenSoftware-World/AdWMGUI
 
 - AdWMGUI kullanırken dikkat edilmesi gerekenler -
 
@@ -36,7 +36,7 @@ EN:
 
 AdWMGUI usage agreement:
 
-Author: LinuxUsersLinuxMint
+Author: OpenSoftware-World
 Agreement content: For the use of AdWMGUI software.
 Created on: 6/11/2025 - 10:37 PM
 Last edited: --/--/---- - --:--
@@ -48,7 +48,7 @@ Last edited: --/--/---- - --:--
 - Where to download AdWMGUI? -
 
 * The AdWMGUI software is open source, so you can access and edit the AdWMGUI source code. To protect yourself from unreliable edits or malware, we recommend that you obtain the AdWMGUI software from the sources listed:
- * Github: https://github.com/LinuxUsersLinuxMint/AdWMGUI
+ * Github: https://github.com/OpenSoftware-World/AdWMGUI
 
 - Things to consider when using AdWMGUI -
 
