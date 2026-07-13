@@ -1,0 +1,13 @@
+# Python cache files
+
+__pycache__/
+
+# Build files
+
+build/
+dist/
+*.spec
+
+# Editor files
+
+.vscode/
