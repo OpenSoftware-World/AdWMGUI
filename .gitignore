@@ -1,13 +1,64 @@
 # Python cache files
 
 __pycache__/
+*.py[cod]
+*$py.class
+
+# venv/env
+
+venv/
+env/
+.venv/
+ENV/
+.env
+.env.*
+!.env.example
 
 # Build files
 
 build/
+iso/
 dist/
 *.spec
+*.egg-info/
+*.egg-info
 
 # Editor files
 
 .vscode/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# other
+
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+*.o
+*.obj
+*.exe
+*.out
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+secrets/
+credentials/
+keys/
+.vs/
+*.suo
+*.user
+out/
+bin/
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
+logs/
+log/
