@@ -9,7 +9,7 @@ import subprocess, threading, os
 from tkinter import *
 from tkinter import messagebox
 from AdWMGUILang.lang import *
-from PyAppDevKit.pyappdevkit import *
+from pyappdevkit import *
 from Theme.theme import *
 
 def Cleanmgr():

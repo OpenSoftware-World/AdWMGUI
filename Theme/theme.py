@@ -12,38 +12,16 @@ config.read("Settings/settings.ini")
 
 userTheme = config['Theme']['userTheme']
 
-if userTheme == "dark":
-    window_bg = "#2e2e2e"
-    button_bg = "#3a3a3a"
-    button_fg = "#dcdcdc"
-    button_active_bg = "#666666"
-    button_active_fg = "#dcdcdc"
-    label_bg = "#2e2e2e"
-    label_fg = "#dcdcdc"
-    entry_bg = "#3a3a3a"
-    entry_fg = "#dcdcdc"
-    entry_instert_bg = "#dcdcdc"
-elif userTheme == "light":
-    window_bg = None
-    button_bg = None
-    button_fg = None
-    button_active_bg = None
-    button_active_fg = None
-    label_bg = None
-    label_fg = None
-    entry_bg = None
-    entry_fg = None
-    entry_instert_bg = None
-elif userTheme == "amoled":
-    window_bg = "black"
-    button_bg = "black"
-    button_fg = "#dcdcdc"
-    button_active_bg = "black"
-    button_active_fg = "#dcdcdc"
-    label_bg = "black"
-    label_fg = "#dcdcdc"
-    entry_bg = "#3a3a3a"
-    entry_fg = "#dcdcdc"
-    entry_instert_bg = "#dcdcdc"
-else:
-    raise ValueError("Invalid theme")
+userTheme_file = configparser.ConfigParser()
+userTheme_file.read(f"Theme/{userTheme}_theme.ini")
+
+window_bg = userTheme_file['ThemeContent']['window_bg']
+button_bg = userTheme_file['ThemeContent']['button_bg']
+button_fg = userTheme_file['ThemeContent']['button_fg']
+button_active_bg = userTheme_file['ThemeContent']['button_active_bg']
+button_active_fg = userTheme_file['ThemeContent']['button_active_fg']
+label_bg = userTheme_file['ThemeContent']['label_bg']
+label_fg = userTheme_file['ThemeContent']['label_fg']
+entry_bg = userTheme_file['ThemeContent']['entry_bg']
+entry_fg = userTheme_file['ThemeContent']['entry_fg']
+entry_instert_bg = userTheme_file['ThemeContent']['entry_instert_bg']

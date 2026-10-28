@@ -10,7 +10,7 @@ from tkinter import *
 from tkinter import messagebox
 from AdWMGUILang.lang import *
 from Theme.theme import *
-from PyAppDevKit.pyappdevkit import *
+from pyappdevkit import *
 
 def RepairSystem(mode):
     if mode == "auto":
